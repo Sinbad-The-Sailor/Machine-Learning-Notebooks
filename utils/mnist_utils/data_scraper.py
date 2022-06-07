@@ -7,7 +7,7 @@ MNIST_TRAINING_URL_DATA = "http://yann.lecun.com/exdb/mnist/t10k-images-idx3-uby
 MINST_TRAINING_URL_LABELS = "http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz"
 
 
-DOWNLOAD_PATH = "../Data/"
+DOWNLOAD_PATH = "../data/"
 
 
 def download_data(url: str, path: str = DOWNLOAD_PATH):

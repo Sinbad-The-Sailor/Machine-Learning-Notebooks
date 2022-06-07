@@ -2,7 +2,7 @@ import numpy as np
 import os
 import idx2numpy
 
-DATA_PATH = os.getcwd() + "/../Data/"
+DATA_PATH = os.getcwd() + "/../data/"
 
 
 _training_data = DATA_PATH + "train-images-idx3-ubyte"

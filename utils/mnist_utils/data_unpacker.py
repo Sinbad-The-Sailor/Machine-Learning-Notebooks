@@ -2,7 +2,7 @@ import os
 import patoolib
 
 # File path to data.
-DATA_PATH = os.getcwd() + "/../Data/"
+DATA_PATH = os.getcwd() + "/../data/"
 
 files = os.listdir(DATA_PATH)
 files = [DATA_PATH + file for file in files if file[-3:] == ".gz"]
