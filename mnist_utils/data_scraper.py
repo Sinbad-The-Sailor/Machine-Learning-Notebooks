@@ -14,10 +14,12 @@ def download_data(url: str, path: str = DOWNLOAD_PATH):
     wget.download(url, path)
 
 
-# Test set.
-download_data(MNIST_TEST_URL_DATA)
-download_data(MNIST_TEST_URL_LABELS)
+if __name__ == "__main__":
 
-# Training set.
-download_data(MNIST_TRAINING_URL_DATA)
-download_data(MINST_TRAINING_URL_LABELS)
+    # Test set.
+    download_data(MNIST_TEST_URL_DATA)
+    download_data(MNIST_TEST_URL_LABELS)
+
+    # Training set.
+    download_data(MNIST_TRAINING_URL_DATA)
+    download_data(MINST_TRAINING_URL_LABELS)
