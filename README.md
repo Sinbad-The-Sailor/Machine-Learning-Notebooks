@@ -1,4 +1,4 @@
-# Linear-Models
+# Machine-Learning-Notebooks
 
 #### 1. Exponential Regression
 
