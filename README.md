@@ -1,4 +1,4 @@
-# Linear-Models
+# Machine-Learning-Notebooks
 
 #### 1. Exponential Regression
 
@@ -37,3 +37,20 @@ Also, confidence and perdiction bands were found as shown below.
 #### 3. Logistic Regression
 
 Classification of surviving the Titanic is made with a self-impelemnted logistic regression model. Based on features of sex, class and age, the model has a ~ 75 % accuracy. A comparision with sklearn's logistic regression and kNN classifier is made. The logistic regression results are nearly identical (sklearn regularizeses too), and the results are better than kNN. 
+
+#### 4. Softmax Regression
+
+Classification of handwritten digits (MNIST dataset). Uses full gradient decent without batching the model yields an accuracy of ~ 90 %. The confusion matrix is displayed below.
+
+<p align="center">
+<img width="223" alt="image" src="https://user-images.githubusercontent.com/62723280/188013601-1fd9866e-7c64-48ca-b8e1-b589f65addc7.png">
+</p>
+
+
+#### 5. Time Series Analysis
+
+Analysing sea-level dataset from NASA. AR, MA and ARMA models are used, in addition to a nonlinear AR model using feed forward neural networks. The results of the network approach are, however, quite disappointing. 
+
+<p align="center">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/62723280/188013403-caa179d3-68eb-4c9a-9b05-607c22500a6e.png">
+</p>
